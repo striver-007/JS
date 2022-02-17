@@ -79,14 +79,14 @@
 
 //-->loops in js
 
-var num =10;
+// var num =10;
 
-for(var i=1;i<=num;i++){
-    if(i%2==0){
-        console.log("num is even");
-        console.log(i);
-    }
-}
+// for(var i=1;i<=num;i++){
+//     if(i%2==0){
+//         console.log("num is even");
+//         console.log(i);
+//     }
+// }
 
 
 
@@ -97,11 +97,28 @@ for(var i=1;i<=num;i++){
 //const is even more strict than var and let
 //reinitialix=zation and redeclaration both are not allowed in const keywrd
 
-const a=10;
-console.log(a);
 
-a=11; //2-TypeError: Assignment to constant variable.
-console.log(a);
 
 
 //js runs code line by line
+
+
+
+
+
+//2--> error in var key word
+// var keyword is function scoped inside a function else it is globally scoped
+//let keyword is block scoped
+
+
+var num=10;
+for(var i=0;i<num;i++){
+    if(i%2==0){
+         let j=69; //its scope is onlh inside the block outside of it ...it is null and void and will throw error
+         console.log("num is even "+i);
+         console.log(j);
+         
+     }
+}
+console.log(i);   //even outside the loop we access the valie of i as it is function scoped -->var keyword
+console.log(j);   //ReferenceError: j is not defined-->as it is block scoped                -->let keyword
