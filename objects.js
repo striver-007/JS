@@ -44,5 +44,5 @@ captainAmerica.sayHi(); //method accessing
 
 
 
-// methods-> objects ke andar function
+// methods-> objects ke andar function is called methods
 // console.log(str.toUpperCase())
