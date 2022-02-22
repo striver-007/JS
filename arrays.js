@@ -80,6 +80,10 @@ console.log(res[2]);  //will return the element present at 2th index of array re
 
 console.log(Array2d[1][0]); //this will print row with index 1 && coloumn with index 0 -->4
 
+console.log(Array2d.length); //this will return 3 the no rows 
+//to access no of colums we have to select particular column
+console.log(Array2d[0].length);//this will also return 3 i.e no of columns
+
 
 
 //Accessing the element +VC V
