@@ -64,7 +64,23 @@ let Array2d =[
 
 console.log("2D Array")
 console.log(Array2d);
-console.table(Array2d);
+console.table(Array2d); //will print the array in tabular form
+
+let res = Array2d[1]; //Accesed the row with 1th index [4,5,6] of the Array2d
+console.log("Printing res array");
+console.log(res);  //will print [4,5,6]
+
+//Now to accessing  the elements of the  array res
+console.log("res array 1st index stored in variable ele");
+var ele = res[1];  //accessed the element at the 1th index of arrray res
+console.log(ele); //will print 5
+
+console.log("res of 2nd index"); 
+console.log(res[2]);  //will return the element present at 2th index of array res
+
+console.log(Array2d[1][0]); //this will print row with index 1 && coloumn with index 0 -->4
+
+
 
 //Accessing the element +VC V
 
