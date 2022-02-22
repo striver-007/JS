@@ -1,10 +1,19 @@
 //strings are the sequence of characters
 
+
+
 let str ="Hello world";
 console.log(str);
 console.log(str[0]);  //->H
 console.log(str[6]); //->W
 //this prooves that  strings are continous sequence of characters
+
+
+
+//String in js are immutable
+str[3] = "x";
+console.log(str); //this will print Hello World as before
+
 
 
 
