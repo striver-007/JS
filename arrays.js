@@ -1,6 +1,6 @@
+//Arrays in JS
 
-
-let cars = ['BMw','audi','tata' ,5,10,true];
+let cars = ['BMw','audi','tata',5 ,10,true];
 //in js we can store different vaules for different types in array
 
 //to print the array 
@@ -66,6 +66,6 @@ console.log("2D Array")
 console.log(Array2d);
 console.table(Array2d);
 
-//Accessing the element 
+//Accessing the element +VC V
 
 

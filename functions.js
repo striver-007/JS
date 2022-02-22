@@ -73,12 +73,18 @@
 
 
 //IIFE-->immediately invoked function
-let thisFunc = (function add(a,b){
-    return a+b;
-})(20,30);
+// let thisFunc = (function add(a,b){
+//     return a+b;
+// })(20,30);
 
-console.log("This output is from IIFE");
-console.log(thisFunc);
+// console.log("This output is from IIFE");
+// console.log(thisFunc);
 
 
+let thisFunc = function(){
+    console.log("I am a function expression");
+}
+
+thisFunc();
+// console.log(thisFunc());
 
